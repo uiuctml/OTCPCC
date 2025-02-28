@@ -7,7 +7,7 @@ This is the official repository for [Learning Structured Representations by Embe
 To embed structured knowledge within labels into feature representations, [Zeng et al., 2022](https://github.com/uiuctml/HierarchyCPCC) proposed to use the **C**o**p**henetic **C**orrelation **C**oefficient (CPCC) as a regularizer during supervised learning. This regularizer calculates pairwise Euclidean distances of class means and aligns them with the corresponding shortest path distances derived from the label hierarchy tree. However, class means may not be good representatives of the class conditional distributions, especially when they are multi-mode in nature. To address this limitation, under the CPCC framework, we propose to use the Earth Mover's Distance (EMD) to measure the pairwise distances among classes in the feature space. We show that our exact EMD method generalizes previous work, and recovers the existing algorithm when class-conditional distributions are Gaussian. To further improve the computational efficiency of our method, we introduce the **O**ptimal **T**ransport-CPCC family by exploring four EMD approximation variants. Our most efficient OT-CPCC variant, the proposed Fast FlowTree algorithm, runs in linear time in the size of the dataset, while maintaining competitive performance across datasets and tasks.
 
 <p align="center">
-    <img src="/home/cindy2000_sh/OTCPCC/images/otcpcc-motivation.png" width="300">
+    <img src="./images/otcpcc-motivation.png" width="300">
 </p>
 
 **Core CPCC reguluarization features are implemented in `loss.py`, and optimal transport methods are implemented in `emd/emd_methods.py`**. 
