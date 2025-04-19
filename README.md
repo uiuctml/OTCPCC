@@ -1,5 +1,5 @@
 # [ICLR'25] OTCPCC
-[Paper](https://arxiv.org/abs/2410.03052) | Slides | Poster | Video | [OpenReview](https://openreview.net/forum?id=AnL6BuWzxa)
+[Paper](https://arxiv.org/abs/2410.03052) | [Slides](https://iclr.cc/virtual/2025/poster/30615) | [Poster](https://iclr.cc/virtual/2025/poster/30615) | [Video](https://recorder-v3.slideslive.com/?share=98703&s=0b8ceaa4-f841-4138-ba6c-4331b8bf0e6c) | [OpenReview](https://openreview.net/forum?id=AnL6BuWzxa)
 
 This is the official repository for [Learning Structured Representations by Embedding Class Hierarchy with Fast Optimal Transport](https://arxiv.org/abs/2410.03052) proposed in our ICLR 2025 paper.
 
